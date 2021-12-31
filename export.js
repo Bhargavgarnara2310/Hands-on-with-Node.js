@@ -9,5 +9,9 @@
     var mul = (a,b)=>{
         return a*b;
         }
-    module.exports = (sum,sub,mul);
-    console.log("Expoeted File")
+        module.exports.sum = sum;
+        module.exports.sub = sub;
+        module.exports.mul = mul;
+
+
+    console.log("Exported File")
